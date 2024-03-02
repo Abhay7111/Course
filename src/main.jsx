@@ -71,6 +71,10 @@ const router = createBrowserRouter([
     element:<Aboutus/>,
   },
   {
+    path:'/Courses/Aboutus',
+    element:<Aboutus/>,
+  },
+  {
     path:'/Blog',
     element:<Blog/>,
   },

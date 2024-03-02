@@ -55,7 +55,7 @@ function Footer() {
             Explore
           </div>
           <li className="list-none w-40 mb-4 leading-none"><a className="leading-none hvr-clr" href="#">Gellery</a></li>
-          <li className="list-none w-40 mb-4 leading-none"><a className="leading-none hvr-clr" href="#">About us</a></li>
+          <li className="list-none w-40 mb-4 leading-none"><Link to="/aboutus">About us</Link></li>
           <li className="list-none w-40 mb-4 leading-none"><Link className="leading-none hvr-clr" to="/courses">Courses</Link></li>
           <li className="list-none w-40 mb-4 leading-none"><Link className="leading-none hvr-clr" to="/help">Coming Soon</Link></li>
           <li className="list-none w-40 mb-4 leading-none"><a className="leading-none hvr-clr" href="#">FAQ's</a></li>
