@@ -7,7 +7,7 @@ function Blog() {
   return (
     <div>
      <Nav />
-     <Commingsoon />
+     <Commingsoon/>
      <Footer />
     </div>
   )
