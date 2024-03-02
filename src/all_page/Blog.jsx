@@ -6,9 +6,9 @@ import Commingsoon from '../componaints/commingsoon'
 function Blog() {
   return (
     <div>
-     <Nav/>
-     <Commingsoon/>
-     <Footer/>
+     <Nav />
+     <Commingsoon />
+     <Footer />
     </div>
   )
 }
