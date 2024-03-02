@@ -490,7 +490,7 @@ function Data() {
   return (
     <>
       <div>
-        <Nav />
+        <div className="w-full"><Nav /></div>
       </div>
       <div>
         {homepage.map((item, index) => (
