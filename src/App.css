@@ -1,0 +1,149 @@
+* {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  color: rgb(247, 247, 247);
+  transition: all ease-in 0.2s;
+}
+#loder{
+  background-color: red;
+  width: 100vw;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+}
+#preloder{
+  background-color: #FFAF8D;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+html,body{
+  background-color: rgb(31, 31, 31);
+}
+.bg-clr{
+  background-color: #F870C2;
+}
+.bg-clr2{
+  background-color: #FFAF8D;
+}
+.hvr-clr:hover{
+  color: #F870C2;
+  transition: all ease-in 0.2s;
+}
+
+.svgtst{
+  width: 100vw;
+}
+
+.dark-clr{
+  color: rgb(22, 22, 22);
+}
+.ri-close-circle-fill{
+  color: rgb(70, 70, 70);
+}
+.ri-play-fill{
+  color: rgb(70, 70, 70);
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.hvr_bg{
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.hvr_bg:hover::before{
+  content: '';
+  top: 0%;
+  width: 100%;
+  border-radius: 0%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.hvr_bg::before{
+  position: absolute;
+  content: " ";
+  width: 9vh;
+  height: 9vh;
+  left: 45%;
+  top: 100%;
+  border-radius: 50%;
+  background-color: #F870C2;
+  transition: all ease-in-out 0.5s;
+}
+.maindv_1:hover div{
+  color: rgb(36, 36, 36);
+  font-weight: 600;
+  letter-spacing: -3px;
+  transition: all 0.4s;
+}
+.hvr_bg:hover .ri-checkbox-circle-fill, .hvr_bg:hover .ri-code-s-slash-fill{
+  color: rgb(32, 32, 32);
+  transition: all step-end 0.4s;
+  font-weight: 600;
+}
+
+.ri-close-fill{
+  color: rgb(22, 22, 22);
+}
+
+.course_overview,
+.post_overview,
+.projects_overview,
+.social_media_overview,
+.about_him_overview,
+.profle_overview,
+.course_overview_02,
+.post_overview_02,
+.projects_overview_02,
+.social_media_overview_02,
+.about_him_overview_02,
+.profle_overview_02{
+  display: none;
+}
+
+.open_window_01{
+  background-color: red;
+}
+.course_overview_03,.post_overview_03,.projects_overview_03,.social_media_overview_03,.about_him_overview_03,.profle_overview_03{
+  display: none;
+}
+
+.main_pop,.open_window_03,.open_window_02,.open_window_01{
+  display: none;
+}
+.ri-eye-fill,.ri-vip-crown-fill{
+  color: rgba(22, 22, 22, 0.616);
+  margin-left: 2px;
+}
+
+.shadow_01{
+  box-shadow: 3px 3px 7px rgb(20, 20, 20), -3px -3px 7px #ebebeb;
+}
+
+.victor_animation{
+  animation: left_right_top_bottom 5s infinite;
+  top: 50%;
+  left: 0%;
+  transform: translate(10%, -60%);
+}
+
+@keyframes left_right_top_bottom {
+  50%{
+    left: 70%;
+    opacity: 0%;
+    
+  }
+}
+
+.wating{
+  transform: translate(-50%, -50%);
+}
