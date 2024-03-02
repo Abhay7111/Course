@@ -3,11 +3,11 @@ import Nav from '../componaints/nav'
 import Footer from '../componaints/footer'
 import Commingsoon from '../componaints/commingsoon'
 
-function Blog() {
+function Blog({blog}) {
   return (
     <div>
      <Nav />
-     <Commingsoon/>
+      <Commingsoon/>
      <Footer />
     </div>
   )

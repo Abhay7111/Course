@@ -17,6 +17,7 @@ import Commingsoon from './componaints/commingsoon.jsx'
 import Aboutus from './all_page/aboutus.jsx'
 import Page from './all_page/Page.jsx'
 import Blog from './all_page/Blog.jsx'
+import Blogdata from './all_page/blogdata.jsx'
 
 
 
@@ -24,6 +25,18 @@ import Blog from './all_page/Blog.jsx'
 const router = createBrowserRouter([
   {
     path: "/",
+    element: <App/>,
+  },
+  {
+    path: "/index",
+    element: <App/>,
+  },
+  {
+    path: "/home",
+    element: <App/>,
+  },
+  {
+    path: "/main",
     element: <App/>,
   },
   {
@@ -55,6 +68,22 @@ const router = createBrowserRouter([
     element:<Help/>,
   },
   {
+    path:"/index/page/Help",
+    element:<Help/>,
+  },
+  {
+    path:"/index/Help",
+    element:<Help/>,
+  },
+  {
+    path:"/main/Help",
+    element:<Help/>,
+  },
+  {
+    path:"/home/Help",
+    element:<Help/>,
+  },
+  {
     path:"/blog/Help",
     element:<Help/>,
   },
@@ -76,7 +105,7 @@ const router = createBrowserRouter([
   },
   {
     path:'/Blog',
-    element:<Blog/>,
+    element:<Blogdata/>,
   },
   {
     path:'/page',
