@@ -92,7 +92,7 @@ function Footer() {
       <div className="w-full flex items-center justify-end relative -top-4">
           <a className="text-[1.5rem] mr-9 font-light underline underline_1 underline-offset-4" href="https://github.com/Abhay7111/">on our github</a>
       </div>
-      <div className="border-t-[1px] border-zinc-700 pt-3 pb-2 flex items-center justify-center mt-40" ><p className="text-[0.8rem] opacity-40 font-light">©Copyright 2024 by Abhay7111.github.com</p></div>
+      <div className="border-t-[1px] border-zinc-700 pt-3 pb-2 flex items-center justify-center mt-40" ><p className="text-[0.8rem] opacity-40 font-light">©Copyright 2024 by plick.Netlify.app</p></div>
     </div>
   );
 }
