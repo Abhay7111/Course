@@ -15,6 +15,7 @@ import Aboutus from "./all_page/aboutus.jsx";
 import Page from "./all_page/Page.jsx";
 import Blog from "./all_page/Blog.jsx";
 import Blogdata from "./all_page/blogdata.jsx";
+import Features from "./componaints/features.jsx";
 
 const router = createBrowserRouter([
   {
@@ -76,6 +77,7 @@ const router = createBrowserRouter([
   {
     path: "/home/Help",
     element: <Help />,
+    element: <Features/>,
   },
   {
     path: "/blog/Help",
@@ -110,5 +112,6 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
+    <Features/>
   </React.StrictMode>
 );

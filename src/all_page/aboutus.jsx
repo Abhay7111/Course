@@ -7,7 +7,7 @@ function Aboutus() {
   return (
     <div>
       <Nav />
-      <div className=" w-full pt-14">
+      <div className=" sm:w-full sm:pt-14">
         <h1 className=" w-full pl-5 text-5xl tracking-tighter font-semibold">
           Welcome to our about section...
         </h1>

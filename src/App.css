@@ -172,21 +172,46 @@ html,body{
     margin-top: -40px;
   }
   .main_nav{
-    background-color: red;
-  }
-  .max630_hide{
-    background-color: green;
-    /* display: none; */
+    display: none;
     position: absolute;
     top: 0%;
     left: 0%;
-    width: 100vw;
-    height: 100vh;
-    z-index: 999;
-
+    width: 90vw;
+    height: 10vh;
+    z-index: 99;
+  }
+  .max630_logo{
+    position: relative;
   }
   .menu_bar3line{
     display: block;
     scale: 2;
+  }
+  .max630_links{
+    width: 100vw;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    position: absolute;
+    left: 0%;
+    top: 20vh;
+  }
+  .max630_ul{
+    display: none;
+  }
+  .max630_ul{
+    flex-direction: column;
+    width: fit-content;
+    gap: 3px;
+  }
+  .max630_ul>li{
+    font-size: 2rem;
+  }
+  .max630_helpdv{
+    scale: 2;
+  }
+  .open_icon{
+    display: none;
+    transition: all ease-in 1s;
   }
 }
