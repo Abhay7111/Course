@@ -183,6 +183,7 @@ html,body{
   }
   .max630_logo{
     position: relative;
+    z-index: 99;
   }
   .menu_bar3line{
     display: block;
@@ -195,7 +196,11 @@ html,body{
     justify-content: center;
     position: absolute;
     left: 0%;
-    top: 20vh;
+    top: 0%;
+    padding-top: 0vh;
+    background-color: #1f1f1fbb;
+    backdrop-filter: blur(20px);
+    height: 0vh;
   }
   .max630_ul{
     display: none;
@@ -224,8 +229,6 @@ html,body{
     scale: 1;
   }
   .max630_bgclr{
-    background-color: #1f1f1fbb;
-    backdrop-filter: blur(20px);
     z-index: 95;
     position: fixed;
     width: 100vw;
