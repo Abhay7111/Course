@@ -22,6 +22,7 @@ useEffect(() => {
     max630_ul.style.display = "none";
     close_icon.style.display = "block";
     open_icon.style.display = "none";
+    max630_bgclr.style.display = "none";
   })
 });
      

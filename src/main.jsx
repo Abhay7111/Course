@@ -77,7 +77,6 @@ const router = createBrowserRouter([
   {
     path: "/home/Help",
     element: <Help />,
-    element: <Features/>,
   },
   {
     path: "/blog/Help",
@@ -112,6 +111,5 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
-    <Features/>
   </React.StrictMode>
 );
