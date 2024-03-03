@@ -10,6 +10,7 @@ import Footer from "./componaints/footer";
 import Card_pop from "./componaints/card_pop";
 import { Link } from "react-router-dom";
 import Courses from "./all_page/Courses";
+import Features from "./componaints/features";
 
 function Data() {
   const userdata = [
@@ -535,6 +536,7 @@ function Data() {
       <div>
         <Footer />
       </div>
+      <Features/>
     </div>
   );
 }

@@ -176,5 +176,10 @@ html,body{
   }
   .max630_hide{
     background-color: green;
+    display: none;
+  }
+  .menu_bar3line{
+    display: block;
+    scale: 2;
   }
 }
