@@ -173,7 +173,7 @@ html,body{
   }
   .main_nav{
     display: none;
-    position: relative;
+    position: fixed;
     top: 0%;
     left: 0%;
     width: 90vw;
@@ -227,5 +227,9 @@ html,body{
     background-color: #1f1f1fbb;
     backdrop-filter: blur(20px);
     z-index: 95;
+    position: fixed;
+    width: 100vw;
+    top: 0%;
+    left: 0%;
   }
 }
