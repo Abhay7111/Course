@@ -488,7 +488,7 @@ function Data() {
     },
   ];
   return (
-    <>
+    <div className=" overflow-hidden w-full">
       <div>
         <div className="w-full"><Nav /></div>
       </div>
@@ -535,7 +535,7 @@ function Data() {
       <div>
         <Footer />
       </div>
-    </>
+    </div>
   );
 }
 

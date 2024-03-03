@@ -147,3 +147,28 @@ html,body{
 .wating{
   transform: translate(-50%, -50%);
 }
+
+@media (max-width: 630px) {
+  .footer{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .footer_child01{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  .footer_child01>.footer_child02{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: -40px;
+  }
+}
