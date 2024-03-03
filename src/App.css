@@ -148,7 +148,7 @@ html,body{
   transform: translate(-50%, -50%);
 }
 
-@media (max-width: 630px) {
+@media (max-width: 632px) {
   .footer{
     width: 100vw;
     display: flex;
@@ -176,7 +176,14 @@ html,body{
   }
   .max630_hide{
     background-color: green;
-    display: none;
+    /* display: none; */
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999;
+
   }
   .menu_bar3line{
     display: block;
