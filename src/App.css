@@ -173,7 +173,7 @@ html,body{
   }
   .main_nav{
     display: none;
-    position: absolute;
+    position: relative;
     top: 0%;
     left: 0%;
     width: 90vw;
@@ -199,6 +199,7 @@ html,body{
   }
   .max630_ul{
     display: none;
+    z-index: 99;
   }
   .max630_ul{
     flex-direction: column;
@@ -225,5 +226,6 @@ html,body{
   .max630_bgclr{
     background-color: #1f1f1fbb;
     backdrop-filter: blur(20px);
+    z-index: 95;
   }
 }
