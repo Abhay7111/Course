@@ -498,11 +498,11 @@ function Data() {
           <Home homepage={item} />
         ))}
         <div className=" px-10 flex gap-10 flex-wrap items-start justify-center relative">
-          <div className=" mb-12 w-full flex items-center justify-between">
-            <h1 className=" font-bold text-xl">Popular Subjects</h1>
+          <div className="max630_cardparent sm:mb-12 sm:w-full flex items-center justify-between">
+            <h1 className="max630_subtext font-bold sm:text-xl">Popular Subjects</h1>
             <Link to="./Courses"><button
               type="button"
-              className="py-[6px] font-light text-[1.2vw] px-5 bg-[#F870C2] rounded-r-[30px] rounded-s-[100px] dark-clr "
+              className="py-[6px] max630_coursescale font-light sm:text-[1.2vw] px-5 bg-[#F870C2] rounded-r-[30px] rounded-s-[100px] dark-clr "
             >
               All courses
               <span className="ml-1">
