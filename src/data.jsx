@@ -488,6 +488,52 @@ function Data() {
       },
     },
   ];
+  const projectsdata = [
+    {
+      project_name:"Google Drive",
+      image:"https://cdn.dribbble.com/userupload/13334711/file/original-7e45925b3be086d35786a9b727be2962.png?resize=1024x768",
+      icon:<i class="ri-arrow-right-fill"></i>,
+      user_data:{
+        name:{
+          first:"Abhay",
+          last:"Vishwakarma",
+        },
+      },
+    },
+    {
+      project_name:"Google Drive",
+      image:"https://cdn.dribbble.com/userupload/6051665/file/original-2d709bb87d81eb570aeb04f0e6484811.png?resize=1024x768",
+      icon:<i class="ri-arrow-right-fill"></i>,
+      user_data:{
+        name:{
+          first:"Abhay",
+          last:"Vishwakarma",
+        },
+      },
+    },
+    {
+      project_name:"Google Drive",
+      image:"https://cdn.dribbble.com/userupload/13317421/file/original-d232060fe037bf6799e8e6b2bfe62a39.png?resize=1024x768",
+      icon:<i class="ri-arrow-right-fill"></i>,
+      user_data:{
+        name:{
+          first:"Abhay",
+          last:"Vishwakarma",
+        },
+      },
+    },
+    {
+      project_name:"Google Drive",
+      image:"https://cdn.dribbble.com/userupload/13212687/file/original-e25c85c843525498583e34ce79916a7a.png?resize=1024x566",
+      icon:<i class="ri-arrow-right-fill"></i>,
+      user_data:{
+        name:{
+          first:"Abhay",
+          last:"Vishwakarma",
+        },
+      },
+    },
+  ];
   return (
     <div className=" overflow-hidden w-full">
       <div>
@@ -524,8 +570,10 @@ function Data() {
             ))}
           </div>
         </div>
-        <div>
-          <Projects />
+        <div className=" max630_flex_padding flex-wrap mt-[6vh] w-full flex justify-around sm:px-10 sm:gap-10">
+          {projectsdata.map((item, index)=>(
+            <Projects projectsdata={item}/>
+          ))}
         </div>
         <div>
           {links.map((item, index) => (
