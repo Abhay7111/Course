@@ -157,9 +157,9 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="w-full flex items-center justify-end relative -top-4">
+      <div className="w-full flex items-center justify-center relative  ">
         <a
-          className="text-[1.5rem] mr-9 font-light underline underline_1 underline-offset-4"
+          className="text-[1.5rem] mr-9 font-medium tracking-tighter underline underline_1 underline-offset-4"
           href="https://github.com/Abhay7111/"
         >
           on our github
