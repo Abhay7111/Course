@@ -305,7 +305,6 @@ html,body{
     scroll-snap-align: start;
   }
   .max630_teachermaintext{
-    background-color: red;
     text-wrap: nowrap;
     font-size: 1.5rem;
     line-height: 25px;
