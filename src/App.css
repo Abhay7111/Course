@@ -282,4 +282,7 @@ html,body{
   .max630_coursescale{
     font-size: 0.8rem;
   }
+  .max630_gap{
+    gap: 5px;
+  }
 }

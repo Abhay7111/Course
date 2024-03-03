@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Cards({ card }) {
   return (
     <div
-      className={`w-1/4 flex gap-3 h-40 rounded-2xl bg-[${card.styling.color}]`}
+      className={`sm:w-1/4 flex sm:gap-3 max630_gap h-40 rounded-2xl bg-[${card.styling.color}]`}
     >
       <div className={`ml-2 pt-2 w-fit h-full flex items-center justify-center flex-col `}>
         <img
@@ -34,14 +34,14 @@ function Cards({ card }) {
       <div className=" w-full h-full relative">
         <div className="">
           <p className="text-zinc-700 text-[2rem] font-medium leading-none tracking-tighter w-full flex flex-col">
-            {card.teaching_type}{" "}
+            {card.teaching_type}
             <span className="text-[1rem] text-zinc-700 -top-1 tracking-tight leading-none relative">
               {card.development}
             </span>
           </p>
         </div>
         <div className=" w-full h-10 text-start text-zinc-700 text-[0.86rem]">
-          <span className="font-thin text-zinc-700">with</span>{" "}
+          <span className="font-thin text-zinc-700">with</span>
           {card.name.first} {card.name.last}
         </div>
         <div className=" w-fit absolute top-0 right-2 pt-1 cursor-pointer text-zinc-700 text-[0.8em]">
