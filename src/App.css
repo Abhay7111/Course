@@ -171,4 +171,10 @@ html,body{
     padding: 10px 20px;
     margin-top: -40px;
   }
+  .main_nav{
+    background-color: red;
+  }
+  .max630_hide{
+    background-color: green;
+  }
 }
