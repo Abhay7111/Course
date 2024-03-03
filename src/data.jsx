@@ -536,7 +536,6 @@ function Data() {
       <div>
         <Footer />
       </div>
-      <Features/>
     </div>
   );
 }

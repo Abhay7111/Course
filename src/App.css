@@ -179,6 +179,7 @@ html,body{
     width: 90vw;
     height: 10vh;
     z-index: 99;
+    background-color: #1f1f1fe8;
   }
   .max630_logo{
     position: relative;
@@ -216,5 +217,13 @@ html,body{
   }
   .max630_bgclr{
     display: none;
+  }
+  .open_icon{
+    color: #ebebeb;
+    scale: 1;
+  }
+  .max630_bgclr{
+    background-color: #1f1f1fbb;
+    backdrop-filter: blur(20px);
   }
 }

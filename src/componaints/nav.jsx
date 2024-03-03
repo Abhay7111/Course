@@ -1,10 +1,11 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import Features from './features';
 
 function Nav() {
   return (
     <div>
-    <div className='bg-[#1F1F1F] max630_bgclr absolute top-0 left-0 w-full h-screen sm:hidden'></div>
+    <div className=' max630_bgclr absolute top-0 left-0 w-full h-screen sm:hidden'></div>
      <div className='main_nav w-full h-14 flex items-center px-7 justify-between sm:bg-yellow-400/0 md:bg-red-400 md:px-4 lg:bg-zinc-700/0'>
           <div className="sm:logo max630_logo text-[1.8rem] font-bold w-12 break-words leading-[23px] sm:scale-[1.2] sm:mt-3">PLICK</div>
           <div className=' sm:w-[70vw] max630_hide sm:flex items-center gap-8 justify-end sm:gap-4 md:gap-4 lg:gap-8'>
@@ -21,10 +22,11 @@ function Nav() {
           <button className='max630_helpdv dark-clr py-1 px-3 text-[1.1vw] text-center bg-clr rounded-xl md:text-lg lg:text-[1.1vw]'>HELP</button></Link>
           </div>
           <div className=' sm:hidden menu_bar3line'>
-               <i class="ri-menu-3-line open_icon"></i>
+               <i class="ri-close-fill open_icon"></i>
                <i class="ri-menu-4-line close_icon"></i>
           </div>
      </div>
+     <Features/>
     </div>
   )
 }

@@ -9,6 +9,7 @@ useEffect(() => {
   const max630_ul = document.querySelector(".max630_ul");
   const open_icon = document.querySelector(".open_icon");
   const close_icon = document.querySelector(".close_icon");
+  const main_nav = document.querySelector(".main_nav");
 
   close_icon.addEventListener("click", (e) => {
     max630_hide.style.display = "block";
@@ -17,12 +18,14 @@ useEffect(() => {
     close_icon.style.display = "none";
     menu_bar3line.style.display = "block";
     open_icon.style.display = "block";
+    main_nav.style.backgroundColor = "transparent"
   })
   open_icon.addEventListener("click",(e) => {
     max630_ul.style.display = "none";
     close_icon.style.display = "block";
     open_icon.style.display = "none";
     max630_bgclr.style.display = "none";
+    main_nav.style.backgroundColor = "#1f1f1fe8"
   })
 });
      
