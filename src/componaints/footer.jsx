@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <div className="w-full sm:bg-yellow-400 sm:overflow-hidden sm:w-full footer">
+    <div className="w-full sm:overflow-hidden sm:w-full footer">
       <div className="flex items-start justify-between w-full relative mt-16 gap-14 footer_child01 px-14 ">
         <div className=" footer_child02">
-          <div className="logo flex flex-col items-start">
+          <div className="logo flex flex-col items-center">
             <div className="logo text-[1.8rem] font-bold w-12 break-words leading-[23px] mb-4">
               PLICK
             </div>
@@ -19,7 +19,7 @@ function Footer() {
               </a>
             </li>
             <div>
-              <ul className="flex gap-1">
+              <ul className="flex gap-1 social_media_footer">
                 <li>
                   <a
                     className="p-2 w-8 h-8 rounded-full hover:bg-[#F870C2] bg-zinc-700"
@@ -128,7 +128,7 @@ function Footer() {
         </div>
         <div className=" footer_child02">
           <div className="logo flex flex-col items-start">
-            <div className="logo text-[1.7rem] font-medium break-words leading-[23px] mb-4">
+            <div className="logo text-[1.7rem] font-medium break-words leading-[23px] mb-4 w-full text-center">
               Contact
             </div>
             <ul>
@@ -165,7 +165,7 @@ function Footer() {
           on our github
         </a>
       </div>
-      <div className="border-t-[1px] border-zinc-700 pt-3 pb-2 flex items-center justify-center mt-40">
+      <div className="border-t-[1px] border-zinc-700 pt-3 pb-2 flex items-center justify-center mt-40 copy_right">
         <p className="text-[0.8rem] opacity-40 font-light">
           ©Copyright 2024 by plick.Netlify.app
         </p>
