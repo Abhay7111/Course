@@ -285,4 +285,30 @@ html,body{
   .max630_gap{
     gap: 5px;
   }
+  .max630_teacherspage{
+    width: 100px;
+    height: 100px;
+  }
+  .max630_teachersname{
+    width: 100px;
+    font-size: 0.9rem;
+    text-align: center;
+    line-height: 17px;
+  }
+  .max630_teachercourses{
+    line-height: 13px;
+  }
+  .max630_teachersscroll{
+    scroll-snap-type: x mandatory;
+  }
+  .max630_teachersscrollsnap{
+    scroll-snap-align: start;
+  }
+  .max630_teachermaintext{
+    background-color: red;
+    text-wrap: nowrap;
+    font-size: 1.5rem;
+    line-height: 25px;
+  }
+
 }

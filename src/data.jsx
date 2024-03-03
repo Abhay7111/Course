@@ -515,10 +515,10 @@ function Data() {
           ))}
         </div>
         <div className="pt-16 flex flex-col items-center px-12">
-          <div className=" w-full text-center text-4xl font-normal leading-tighter">
+          <div className=" max630_teachermaintext w-full text-center sm:text-4xl font-normal leading-tighter">
             Meet the teacher who <br /> teach you online
           </div>
-          <div className=" max-w-[90vw] h-auto mt-10 flex flex-row items-center gap-7 justify-start scroll-smooth">
+          <div className=" max630_teachersscroll max-w-[90vw] overflow-x-auto h-auto mt-10 flex flex-row items-center gap-7 justify-start scroll-smooth">
             {teacher.map((item, index) => (
               <Teacherspage teacher={item} />
             ))}
