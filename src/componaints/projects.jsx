@@ -9,7 +9,7 @@ function Projects({projectsdata}) {
           <div className='w-full max630_projectsimage '><img className='w-full' src={projectsdata.image}/></div>
           <div className=' absolute top-0 left-0 w-full h-full max630_bg_zinc'>
                <Link to="/Projects"><p className=' absolute top-1 right-2'>{projectsdata.icon}</p></Link>
-               <h1>{projectsdata.project_name}</h1>
+               <h1 className='ml-4 mt-1'>{projectsdata.project_name}</h1>
           </div>
      </div>
     </>
