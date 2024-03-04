@@ -62,24 +62,24 @@ html,body{
 }
 .hvr_bg:hover::before{
   content: '';
-  top: 0%;
   width: 100%;
-  border-radius: 0%;
-  top: 50%;
-  left: 50%;
+  border-radius: 50%;
+  scale: 3;
+  top: 150%;
+  left: 60%;
   transform: translate(-50%, -50%);
   position: absolute;
 }
 .hvr_bg::before{
   position: absolute;
-  content: " ";
-  width: 9vh;
-  height: 9vh;
-  left: 45%;
-  top: 100%;
-  border-radius: 50%;
-  background-color: #F870C2;
-  transition: all ease-in-out 0.5s;
+    content: " ";
+    width: 5vh;
+    height: 100%;
+    left: -10%;
+    top: 50%;
+    border-radius: 50%;
+    background-color: #F870C2;
+    transition: all ease-in 0.3s;
 }
 .maindv_1:hover div{
   color: rgb(36, 36, 36);
@@ -91,6 +91,10 @@ html,body{
   color: rgb(32, 32, 32);
   transition: all step-end 0.4s;
   font-weight: 600;
+}
+.max630_bg_zinc:hover{
+  background: linear-gradient(rgb(2, 2, 2),rgba(0, 0, 0, 0.144),rgba(2, 2, 2, 0.315), rgb(8, 8, 8));
+  font-size: 1.2rem;
 }
 
 .ri-close-fill{
@@ -337,10 +341,6 @@ html,body{
   .max630_bg_zinc{
     background: linear-gradient(rgba(2, 2, 2, 0.836),rgba(0, 0, 0, 0),rgba(2, 2, 2, 0), rgba(8, 8, 8, 0.89));
   }
-  .max630_bg_zinc:hover{
-    background: linear-gradient(rgb(2, 2, 2),rgba(0, 0, 0, 0.144),rgba(2, 2, 2, 0.315), rgb(8, 8, 8));
-    font-size: 1.2rem;
-  }
   .max630_miniraper{
     gap: 2px;
   }
@@ -361,24 +361,24 @@ html,body{
   }
   .hvr_bg:hover::before{
     content: '';
-    top: 0%;
     width: 100%;
-    border-radius: 0%;
-    top: 50%;
-    left: 50%;
+    border-radius: 50%;
+    scale: 10;
+    top: 100%;
+    left: 400%;
     transform: translate(-50%, -50%);
     position: absolute;
   }
   .hvr_bg::before{
     position: absolute;
     content: " ";
-    width: 9vh;
-    height: 9vh;
-    left: 45%;
-    top: 100%;
+    width: 5vh;
+    height: 100%;
+    left: -10%;
+    top: 50%;
     border-radius: 50%;
     background-color: #F870C2;
-    transition: all ease-in-out 0.5s;
+    transition: all ease-in 0.3s;
   }
   .maindv_1:hover div{
     color: rgba(0, 0, 0, 0.788);

@@ -512,8 +512,8 @@ function Data() {
       },
     },
     {
-      project_name:"Google Drive",
-      image:"https://cdn.dribbble.com/userupload/13317421/file/original-d232060fe037bf6799e8e6b2bfe62a39.png?resize=1024x768",
+      project_name:"YouTube",
+      image:"https://cdn.dribbble.com/users/5132945/screenshots/17534969/media/3bd29f4b4ecfc12f7ab7dd2bffa6a9d9.jpg?resize=1200x900&vertical=center",
       icon:<i class="ri-arrow-right-fill"></i>,
       user_data:{
         name:{
@@ -524,7 +524,7 @@ function Data() {
     },
     {
       project_name:"Google Drive",
-      image:"https://cdn.dribbble.com/userupload/13212687/file/original-e25c85c843525498583e34ce79916a7a.png?resize=1024x566",
+      image:"https://cdn.dribbble.com/userupload/7948637/file/original-3fb2c301c68de8db8664f58db5142acb.png?resize=1024x768",
       icon:<i class="ri-arrow-right-fill"></i>,
       user_data:{
         name:{
