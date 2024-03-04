@@ -570,7 +570,7 @@ function Data() {
             ))}
           </div>
         </div>
-        <div className=" max630_flex_padding flex-wrap mt-[6vh] w-full flex justify-around sm:px-10 sm:gap-10">
+        <div className=" max630_flex_padding flex-wrap mt-[6vh] w-full flex justify-around sm:px-10 sm:gap-10 pb-24">
           {projectsdata.map((item, index)=>(
             <Projects projectsdata={item}/>
           ))}

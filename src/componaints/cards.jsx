@@ -50,7 +50,7 @@ function Cards({ card }) {
            {card.link.icons.crown}</Link>
         </div>
         <div className="">
-          <p className="text-zinc-600 text-[0.8em] line-clamp-5 leading-[15px] -mt-4 pr-2">{card.about}</p>
+          <p className="text-zinc-800 text-[0.7em] line-clamp-4 leading-[14px] -mt-3 pr-2">{card.about}</p>
         </div>
       </div>
     </div>
