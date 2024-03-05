@@ -144,7 +144,7 @@ function Footer() {
             </ul>
             <div className="w-full mt-5 rounded-full items-center flex gap-2 bg-zinc-50">
               <input
-                className="bg-zinc-50 w-full rounded-full px-2 h-9 border-none"
+                className="bg-zinc-50 w-full text-zinc-700 outline-none rounded-full px-2 h-9 border-none"
                 type="Search"
                 placeholder="Search your course"
               />

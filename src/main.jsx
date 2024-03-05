@@ -16,6 +16,8 @@ import Page from "./all_page/Page.jsx";
 import Blog from "./all_page/Blog.jsx";
 import Blogdata from "./all_page/blogdata.jsx";
 import Features from "./componaints/features.jsx";
+import Trying from "./all_page/trying.jsx";
+import Preloader from "./all_page/testing/Preloader.jsx";
 
 const router = createBrowserRouter([
   {
@@ -106,10 +108,15 @@ const router = createBrowserRouter([
     path: "/page",
     element: <Page />,
   },
+  {
+    path: "/trying",
+    element: <Trying />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
+    <Preloader/>
   </React.StrictMode>
 );
