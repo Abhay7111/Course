@@ -70,8 +70,8 @@ function Footer() {
               Explore
             </div>
             <li className="list-none w-40 mb-4 leading-none">
-              <a className="leading-none hvr-clr" href="#">
-                Gellery
+              <a className="leading-none hvr-clr" href="https://abhay7111.github.io/image">
+                Gallery
               </a>
             </li>
             <li className="list-none w-40 mb-4 leading-none">
