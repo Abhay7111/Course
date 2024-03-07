@@ -1,9 +1,11 @@
 import React from 'react'
 import Trythis from './trythis'
+import Profiletest from './testing/profiletest'
 
 function Trying() {
   return (
-    <div>Trying
+    <div>
+      <Profiletest/>
 
      <Trythis/>
     </div>

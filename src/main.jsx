@@ -18,6 +18,9 @@ import Blogdata from "./all_page/blogdata.jsx";
 import Features from "./componaints/features.jsx";
 import Trying from "./all_page/trying.jsx";
 import Preloader from "./all_page/testing/Preloader.jsx";
+import Instructor from "./instructor/instructor.jsx";
+import Abhay from "./instructor/abhay.jsx";
+import Abhaydata from "./instructor/abhaydata.jsx";
 
 const router = createBrowserRouter([
   {
@@ -111,6 +114,14 @@ const router = createBrowserRouter([
   {
     path: "/trying",
     element: <Trying />,
+  },
+  {
+    path:"/Instructor",
+    element:<Instructor/>
+  },
+  {
+    path:"/Instructor/Abhay",
+    element:<Abhaydata/>
   },
 ]);
 

@@ -399,7 +399,7 @@ function Data() {
       links: {
         profile:
           "https://media-del2-1.cdn.whatsapp.net/v/t61.24694-24/414997641_2007442582972989_4343336468827169681_n.jpg?ccb=11-4&oh=01_AdR_V7tt0vZ2kNQm7mATErhbmlgW2qZK7cf-6PRazeShpA&oe=65EBF433&_nc_sid=e6ed6c&_nc_cat=102",
-        goto: "",
+        goto: "/Instructor/abhay",
       },
     },
     {
@@ -564,7 +564,7 @@ function Data() {
           <div className=" max630_teachermaintext w-full text-center sm:text-4xl font-normal leading-tighter">
             Meet the teacher who <br /> teach you online
           </div>
-          <div className=" max630_teachersscroll max-w-[90vw] overflow-x-auto h-auto mt-10 flex flex-row items-center gap-7 justify-start scroll-smooth">
+          <div className=" max630_teachersscroll max-w-[90vw] overflow-x-auto h-auto mt-10 flex px-5 flex-row items-center gap-7 justify-start scroll-smooth">
             {teacher.map((item, index) => (
               <Teacherspage teacher={item} />
             ))}
