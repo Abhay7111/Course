@@ -535,55 +535,58 @@ function Data() {
     },
   ];
   return (
-    <div className=" overflow-hidden w-full">
-      <div>
-        <div className="w-full"><Nav /></div>
-      </div>
-      <div>
-        {homepage.map((item, index) => (
-          <Home homepage={item} />
-        ))}
-        <div className=" px-10 flex gap-10 flex-wrap items-start justify-center relative">
-          <div className="max630_cardparent sm:mb-12 sm:w-full flex items-center justify-between">
-            <h1 className="max630_subtext font-bold sm:text-xl">Popular Subjects</h1>
-            <Link to="./Courses"><button
-              type="button"
-              className="py-[6px] max630_coursescale font-light sm:text-[1.2vw] px-5 bg-[#F870C2] rounded-r-[30px] rounded-s-[100px] dark-clr "
-            >
-              All courses
-              <span className="ml-1">
-                <i class="ri-logout-circle-r-line dark-clr "></i>
-              </span>
-            </button></Link>
-          </div>
-          {card.map((item, index) => (
-            <Cards card={item} />
-          ))}
-        </div>
-        <div className="pt-16 flex flex-col items-center px-12">
-          <div className=" max630_teachermaintext w-full text-center sm:text-4xl font-normal leading-tighter">
-            Meet the teacher who <br /> teach you online
-          </div>
-          <div className=" max630_teachersscroll max-w-[90vw] overflow-x-auto h-auto mt-10 flex px-5 flex-row items-center gap-7 justify-start scroll-smooth">
-            {teacher.map((item, index) => (
-              <Teacherspage teacher={item} />
-            ))}
-          </div>
-        </div>
-        <div className=" max630_flex_padding flex-wrap mt-[6vh] w-full flex justify-around sm:px-10 sm:gap-10 pb-24">
-          {projectsdata.map((item, index)=>(
-            <Projects projectsdata={item}/>
-          ))}
-        </div>
-        <div>
-          {links.map((item, index) => (
-            <Links links={item} />
-          ))}
-        </div>
-      </div>
-      <div>
-        <Footer />
-      </div>
+    // <div className=" overflow-hidden w-full">
+    //   <div>
+    //     <div className="w-full"><Nav /></div>
+    //   </div>
+    //   <div>
+    //     {homepage.map((item, index) => (
+    //       <Home homepage={item} />
+    //     ))}
+    //     <div className=" px-10 flex gap-10 flex-wrap items-start justify-center relative">
+    //       <div className="max630_cardparent sm:mb-12 sm:w-full flex items-center justify-between">
+    //         <h1 className="max630_subtext font-bold sm:text-xl">Popular Subjects</h1>
+    //         <Link to="./Courses"><button
+    //           type="button"
+    //           className="py-[6px] max630_coursescale font-light sm:text-[1.2vw] px-5 bg-[#F870C2] rounded-r-[30px] rounded-s-[100px] dark-clr "
+    //         >
+    //           All courses
+    //           <span className="ml-1">
+    //             <i class="ri-logout-circle-r-line dark-clr "></i>
+    //           </span>
+    //         </button></Link>
+    //       </div>
+    //       {card.map((item, index) => (
+    //         <Cards card={item} />
+    //       ))}
+    //     </div>
+    //     <div className="pt-16 flex flex-col items-center px-12">
+    //       <div className=" max630_teachermaintext w-full text-center sm:text-4xl font-normal leading-tighter">
+    //         Meet the teacher who <br /> teach you online
+    //       </div>
+    //       <div className=" max630_teachersscroll max-w-[90vw] overflow-x-auto h-auto mt-10 flex px-5 flex-row items-center gap-7 justify-start scroll-smooth">
+    //         {teacher.map((item, index) => (
+    //           <Teacherspage teacher={item} />
+    //         ))}
+    //       </div>
+    //     </div>
+    //     <div className=" max630_flex_padding flex-wrap mt-[6vh] w-full flex justify-around sm:px-10 sm:gap-10 pb-24">
+    //       {projectsdata.map((item, index)=>(
+    //         <Projects projectsdata={item}/>
+    //       ))}
+    //     </div>
+    //     <div>
+    //       {links.map((item, index) => (
+    //         <Links links={item} />
+    //       ))}
+    //     </div>
+    //   </div>
+    //   <div>
+    //     <Footer />
+    //   </div>
+    // </div>
+    <div className="flex item-center w-full h-screen">
+      sorry this website in not working
     </div>
   );
 }
