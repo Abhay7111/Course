@@ -491,7 +491,7 @@ function Data() {
   const projectsdata = [
     {
       project_name:"Google Drive",
-      image:"https://mdbcdn.b-cdn.net/img/home/advanced.webp",
+      image:"https://cdn.dribbble.com/userupload/13480902/file/original-3dc9ada946134e7b95eaf523271b5098.png?resize=1024x584",
       icon:"ri-arrow-right-fill",
       user_data:{
         name:{
