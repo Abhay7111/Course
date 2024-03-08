@@ -491,102 +491,127 @@ function Data() {
   const projectsdata = [
     {
       project_name:"Google Drive",
-      image:"https://cdn.dribbble.com/userupload/13334711/file/original-7e45925b3be086d35786a9b727be2962.png?resize=1024x768",
-      icon:<i class="ri-arrow-right-fill"></i>,
+      image:"https://mdbcdn.b-cdn.net/img/home/advanced.webp",
+      icon:"ri-arrow-right-fill",
       user_data:{
         name:{
           first:"Abhay",
           last:"Vishwakarma",
         },
+        dis:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptate quisquam repellat aut magni placeat vel incidunt porro minima eveniet sequi libero ducimus reprehenderit dolorem tenetur impedit doloribus numquam neque laboriosam aliquid, sit eius. Veniam dolor qui adipisci ullam reiciendis?",
+        title:"Need something more powerful? Try MDB Pro",
+      },
+      style:{
+        class:"",
+        posi:"flex-row-reverse",
+        btn_posi:"right-2",
       },
     },
     {
       project_name:"Google Drive",
-      image:"https://cdn.dribbble.com/userupload/6051665/file/original-2d709bb87d81eb570aeb04f0e6484811.png?resize=1024x768",
-      icon:<i class="ri-arrow-right-fill"></i>,
+      image:"https://mdbcdn.b-cdn.net/img/home/design-system.webp",
+      icon:"ri-arrow-left-fill",
       user_data:{
         name:{
           first:"Abhay",
           last:"Vishwakarma",
         },
+        dis:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptate quisquam repellat aut magni placeat vel incidunt porro minima eveniet sequi libero ducimus reprehenderit dolorem tenetur impedit doloribus numquam neque laboriosam aliquid, sit eius. Veniam dolor qui adipisci ullam reiciendis?",
+        title:"A design system that will make your projects stand out",
       },
-    },
-    {
-      project_name:"YouTube",
-      image:"https://cdn.dribbble.com/users/5132945/screenshots/17534969/media/3bd29f4b4ecfc12f7ab7dd2bffa6a9d9.jpg?resize=1200x900&vertical=center",
-      icon:<i class="ri-arrow-right-fill"></i>,
-      user_data:{
-        name:{
-          first:"Abhay",
-          last:"Vishwakarma",
-        },
+      style:{
+        class:"",
+        posi:"flex-row",
+        btn_posi:"left-2",
       },
     },
     {
       project_name:"Google Drive",
-      image:"https://cdn.dribbble.com/userupload/7948637/file/original-3fb2c301c68de8db8664f58db5142acb.png?resize=1024x768",
-      icon:<i class="ri-arrow-right-fill"></i>,
+      image:"https://mdbcdn.b-cdn.net/img/home/theme-light.webp",
+      icon:"ri-arrow-right-fill",
       user_data:{
         name:{
           first:"Abhay",
           last:"Vishwakarma",
         },
+        dis:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptate quisquam repellat aut magni placeat vel incidunt porro minima eveniet sequi libero ducimus reprehenderit dolorem tenetur impedit doloribus numquam neque laboriosam aliquid, sit eius. Veniam dolor qui adipisci ullam reiciendis?",
+        title:"Easy theming",
+      },
+      style:{
+        class:"",
+        posi:"flex-row-reverse",
+        btn_posi:"right-2",
+      },
+    },
+    {
+      project_name:"Google Drive",
+      image:"https://mdbcdn.b-cdn.net/img/home/essential.webp",
+      icon:"ri-arrow-left-fill",
+      user_data:{
+        name:{
+          first:"Abhay",
+          last:"Vishwakarma",
+        },
+        dis:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptate quisquam repellat aut magni placeat vel incidunt porro minima eveniet sequi libero ducimus reprehenderit dolorem tenetur impedit doloribus numquam neque laboriosam aliquid, sit eius. Veniam dolor qui adipisci ullam reiciendis?",
+        title:"Key components that will save your time",
+      },
+      style:{
+        class:"",
+        posi:"flex-row",
+        btn_posi:"left-2",
       },
     },
   ];
   return (
-    // <div className=" overflow-hidden w-full">
-    //   <div>
-    //     <div className="w-full"><Nav /></div>
-    //   </div>
-    //   <div>
-    //     {homepage.map((item, index) => (
-    //       <Home homepage={item} />
-    //     ))}
-    //     <div className=" px-10 flex gap-10 flex-wrap items-start justify-center relative">
-    //       <div className="max630_cardparent sm:mb-12 sm:w-full flex items-center justify-between">
-    //         <h1 className="max630_subtext font-bold sm:text-xl">Popular Subjects</h1>
-    //         <Link to="./Courses"><button
-    //           type="button"
-    //           className="py-[6px] max630_coursescale font-light sm:text-[1.2vw] px-5 bg-[#F870C2] rounded-r-[30px] rounded-s-[100px] dark-clr "
-    //         >
-    //           All courses
-    //           <span className="ml-1">
-    //             <i class="ri-logout-circle-r-line dark-clr "></i>
-    //           </span>
-    //         </button></Link>
-    //       </div>
-    //       {card.map((item, index) => (
-    //         <Cards card={item} />
-    //       ))}
-    //     </div>
-    //     <div className="pt-16 flex flex-col items-center px-12">
-    //       <div className=" max630_teachermaintext w-full text-center sm:text-4xl font-normal leading-tighter">
-    //         Meet the teacher who <br /> teach you online
-    //       </div>
-    //       <div className=" max630_teachersscroll max-w-[90vw] overflow-x-auto h-auto mt-10 flex px-5 flex-row items-center gap-7 justify-start scroll-smooth">
-    //         {teacher.map((item, index) => (
-    //           <Teacherspage teacher={item} />
-    //         ))}
-    //       </div>
-    //     </div>
-    //     <div className=" max630_flex_padding flex-wrap mt-[6vh] w-full flex justify-around sm:px-10 sm:gap-10 pb-24">
-    //       {projectsdata.map((item, index)=>(
-    //         <Projects projectsdata={item}/>
-    //       ))}
-    //     </div>
-    //     <div>
-    //       {links.map((item, index) => (
-    //         <Links links={item} />
-    //       ))}
-    //     </div>
-    //   </div>
-    //   <div>
-    //     <Footer />
-    //   </div>
-    // </div>
-    <div className="flex item-center w-full h-screen">
-      sorry this website in not working
+    <div className=" overflow-hidden w-full">
+      <div>
+        <div className="w-full"><Nav /></div>
+      </div>
+      <div>
+        {homepage.map((item, index) => (
+          <Home homepage={item} />
+        ))}
+        <div className=" px-10 flex gap-10 flex-wrap items-start justify-center relative">
+          <div className="max630_cardparent sm:mb-12 sm:w-full flex items-center justify-between">
+            <h1 className="max630_subtext font-bold sm:text-xl">Popular Subjects</h1>
+            <Link to="./Courses"><button
+              type="button"
+              className="py-[6px] max630_coursescale font-light sm:text-[1.2vw] px-5 bg-[#F870C2] rounded-r-[30px] rounded-s-[100px] dark-clr "
+            >
+              All courses
+              <span className="ml-1">
+                <i class="ri-logout-circle-r-line dark-clr "></i>
+              </span>
+            </button></Link>
+          </div>
+          {card.map((item, index) => (
+            <Cards card={item} />
+          ))}
+        </div>
+        <div className="pt-16 flex flex-col items-center px-12">
+          <div className=" max630_teachermaintext w-full text-center sm:text-4xl font-normal leading-tighter">
+            Meet the teacher who <br /> teach you online
+          </div>
+          <div className=" max630_teachersscroll max-w-[90vw] overflow-x-auto h-auto mt-10 flex px-5 flex-row items-center gap-7 justify-start scroll-smooth">
+            {teacher.map((item, index) => (
+              <Teacherspage teacher={item} />
+            ))}
+          </div>
+        </div>
+        <div className=" max630_flex_padding flex-wrap mt-20 w-full flex justify-around sm:px-10 sm:gap-10 pb-24">
+          {projectsdata.map((item, index)=>(
+            <Projects projectsdata={item}/>
+          ))}
+        </div>
+        <div>
+          {links.map((item, index) => (
+            <Links links={item} />
+          ))}
+        </div>
+      </div>
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 }

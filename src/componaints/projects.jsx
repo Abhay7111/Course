@@ -5,12 +5,15 @@ import Video from '../video';
 function Projects({projectsdata}) {
   return (
     <>
-     <div className=' sm:w-[44%] h-fit overflow-hidden rounded-2xl max630_projectimage bg-green-400 relative'>
-          <div className='w-full max630_projectsimage '><img className='w-full' src={projectsdata.image}/></div>
-          <div className=' absolute top-0 left-0 w-full h-full max630_bg_zinc'>
-               <Link to="/Projects"><p className=' absolute top-1 right-2'>{projectsdata.icon}</p></Link>
-               <h1 className='ml-4 mt-1'>{projectsdata.project_name}</h1>
-          </div>
+     <div className={`${projectsdata.style.posi} sm:flex w-[100vw] sm:items-center max630_posi`}>
+      <div className=' relative sm:w-1/2 flex flex-col items-start justify-center sm:px-10 max630_textcont'>
+        <h1 className='sm:text-8xl text-2xl text-zinc-100 sm:tracking-tighter leading-[90%] mb-3'>{projectsdata.user_data.title}</h1>
+        <p className='sm:text-[0.8rem] text-[0.7rem] leading-none sm:leading-5 line-clamp-4 text-zinc-400'>{projectsdata.user_data.dis}</p>
+      </div>
+      <div className='sm:w-1/2 relative max630_mainimgrapper'>
+        <img className='sm:w-full max630_projectimage' src={projectsdata.image} />
+        <a className={`absolute sm:top-2 -top-3 ${projectsdata.style.btn_posi}`} href="#"><i class={`${projectsdata.icon}`}></i></a>
+      </div>
      </div>
     </>
   )
