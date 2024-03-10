@@ -3,6 +3,7 @@
   font-weight: 400;
   color: rgb(247, 247, 247);
   transition: all ease-in 0.2s;
+  scroll-behavior: smooth;
 }
 
 #loder {

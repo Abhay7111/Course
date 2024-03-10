@@ -4,6 +4,7 @@ import App from "./App.jsx";
 import Data from "./data.jsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
 import Home from "./componaints/home.jsx";
 import Footer from "./componaints/footer.jsx";
 import Courses from "./all_page/Courses.jsx";
