@@ -55,6 +55,7 @@ function Data() {
         state: "Uttat pradesh",
       },
       teaching_type: "web",
+      date:"11/03/2024",
       development: "development",
       course: {
         _1: "HTML",
@@ -72,7 +73,7 @@ function Data() {
         "Embark on a journey into the world of web development with our comprehensive course. Learn HTML, CSS, JavaScript, and more as you master the tools and techniques to create stunning websites and dynamic web applications. Whether you're a beginner or looking to enhance your skills, our course offers hands-on experience and expert guidance to help you succeed in the ever-evolving field of web development.",
       link: {
         profile_photo:
-          "https://media-del1-2.cdn.whatsapp.net/v/t61.24694-24/414997641_2007442582972989_4343336468827169681_n.jpg?ccb=11-4&oh=01_AdSb5W0ELODLhtcGZFRJYu7x52xA9fpTCM9lUvES1jyInQ&oe=65ED7DF3&_nc_sid=e6ed6c&_nc_cat=102",
+          "https://marketplace.canva.com/EAF2GJznofM/1/0/1600w/canva-l9j6np3BaaA.jpg",
         icons: {
           instagram: <i class="ri-instagram-fill"></i>,
           facebook: <i class="ri-facebook-circle-fill"></i>,
@@ -571,7 +572,7 @@ function Data() {
         {homepage.map((item, index) => (
           <Home homepage={item} />
         ))}
-        <div className=" px-10 flex gap-10 flex-wrap items-start justify-center relative">
+        <div className=" w-full px-10 flex gap-2 flex-wrap items-start justify-around relative">
           <div className="max630_cardparent sm:mb-12 sm:w-full flex items-center justify-between">
             <h1 className="max630_subtext font-bold sm:text-xl">Popular Subjects</h1>
             <Link to="./Courses"><button

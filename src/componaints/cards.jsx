@@ -2,56 +2,19 @@ import React from "react";
 import Card_pop from "./card_pop";
 import { Link } from "react-router-dom";
 
-
 function Cards({ card }) {
   return (
-    <div
-      className={`sm:w-1/4 flex sm:gap-3 max630_gap h-40 rounded-2xl bg-[${card.styling.color}]`}
-    >
-      <div className={`ml-2 pt-2 w-fit h-full flex items-center justify-center flex-col `}>
+    <div className=" py-3 px-3 w-[47%] mt-3 bg-red-400 min-h-10 gap-3 rounded-lg flex items-start justify-start">
+      <div className="left w-40 h-40 rounded-lg overflow-hidden">
         <img
-          className={`object-cover w-14 h-14 ${card.styling.type} ${card.styling.class.hover} ${card.styling.class.shadow} ${card.styling.class.scale} shadow_01`}
+          className="object-cover w-full h-full"
           src={card.link.profile_photo}
         />
-        <div className=" pt-2 leading-[16px] w-full h-full rounded-md ">
-          <div>
-            <p className="text-zinc-800 text-[0.9rem]">{card.course._1}</p>
-          </div>
-          <div>
-            <p className="text-zinc-800 text-[0.9rem]">{card.course._2}</p>
-          </div>
-          <div>
-            <p className="text-zinc-800 text-[0.9rem]">{card.course._3}</p>
-          </div>
-          <div>
-            <p className="text-zinc-800 text-[0.9rem]">{card.course._4}</p>
-          </div>
-          <div>
-            <p className="text-zinc-800 text-[0.9rem]">{card.course._5}</p>
-          </div>
-        </div>
       </div>
-      <div className=" w-full h-full relative">
-        <div className="">
-          <p className="text-zinc-700 text-[2rem] font-medium leading-none tracking-tighter w-full flex flex-col">
-            {card.teaching_type}
-            <span className="text-[1rem] text-zinc-700 -top-1 tracking-tight leading-none relative">
-              {card.development}
-            </span>
-          </p>
-        </div>
-        <div className=" w-full h-10 text-start text-zinc-700 text-[0.86rem]">
-          <span className="font-thin text-zinc-700">with</span>
-          {card.name.first} {card.name.last}
-        </div>
-        <div className=" w-fit absolute top-0 right-2 pt-1 cursor-pointer text-zinc-700 text-[0.8em]">
-          <Link to="./Courses">{card.link.post.total}
-          {card.link.icons.view} 
-           {card.link.icons.crown}</Link>
-        </div>
-        <div className="">
-          <p className="text-zinc-800 text-[0.7em] line-clamp-4 leading-[14px] -mt-3 pr-2">{card.about}</p>
-        </div>
+
+      <div className="right w-8/12 h-40 gap-2 flex">
+        <h1 className=" text-2xl h-fit font-bold text-zinc-700 w-1/2">{card.teaching_type}</h1>
+        <h1 className=" text-[0.9rem] text-end h-fit font-normal text-zinc-700 w-1/2 mt-1">{card.date}</h1>
       </div>
     </div>
   );
