@@ -43,9 +43,9 @@ function Testdata() {
       {error && <p>{error}</p>}
       <ul className=' w-full flex gap-2 flex-wrap px-5 items-start justify-center'>
         {users.map((user) => (
-          <li key={user.id}>
+          <li key={user.id} className='relative'>
             <div className=' bg-clr2 px-3 py-2 rounded-t-xl flex'>
-            <img className=' open_image hover:scale-[1.1] w-10 h-10 object-cover rounded-xl' src={user.avatar_url} alt="not found" />
+            <img className=' hover:animate-bounce open_image hover:scale-[1.1] w-10 h-10 object-cover rounded-xl' src={user.avatar_url} alt="not found" />
             <div className=' text-zinc-800 flex px-2 items-center justify-start'>
             <a className=' hover:scale-[1.02] text-xl font-normal tracking-tighter ml-3 hover:text-blue-500' href={user.html_url}>{user.login}</a>
             </div>
@@ -57,6 +57,7 @@ function Testdata() {
 
                </div>
             </div>
+            <div className=' w-1 animate-ping h-1 bg-green-700 rounded-full absolute top-3 right-2 '></div>
           </li>
         ))}
       </ul>
