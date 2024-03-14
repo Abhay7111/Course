@@ -43,16 +43,16 @@ function Testdata() {
       {error && <p>{error}</p>}
       <ul className=' w-full flex gap-2 flex-wrap px-5 items-start justify-center'>
         {users.map((user) => (
-          <li key={user.id} className='relative'>
-            <div className=' bg-clr2 px-3 py-2 rounded-t-xl flex'>
+          <li key={user.id} className='relative mb-1'>
+            <div className=' bg-clr2 px-3 py-2 rounded-t-md flex'>
             <img className=' hover:animate-bounce open_image hover:scale-[1.1] w-10 h-10 object-cover rounded-xl' src={user.avatar_url} alt="not found" />
             <div className=' text-zinc-800 flex px-2 items-center justify-start'>
             <a className=' hover:scale-[1.02] text-xl font-normal tracking-tighter ml-3 hover:text-blue-500' href={user.html_url}>{user.login}</a>
             </div>
             </div>
-            <div className=' w-full bg-clr2 rounded-b-xl flex flex-col items-center justify-start'>
+            <div className=' w-full bg-clr2 rounded-b-md flex flex-col items-center justify-start after:w-4 after:h-2 after:-bottom-2 after:bg-[#FFAF8D] after:absolute after:rounded-b-full'>
                <div className=' w-full h-10 px-2 gap-3 flex justify-between mt-2'> 
-                    <a href={user.url} className='text-blue-600 tracking-tighter hover:underline'>get user API</a>
+                    <a href={user.url} className='text-blue-600 tracking-tighter scale-[1.3]'><i class="ri-spy-fill text-indigo-600"></i></a>
                     <p className=' text-zinc-800 text-[0.8rem]'>Score <span className='text-blue-600 text-[1rem]'>{user.score}</span></p>
 
                </div>
