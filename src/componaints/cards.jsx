@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Cards({ card }) {
   return (
-    <div className=" py-3 px-3 w-[47%] mt-3 bg-red-400 min-h-10 gap-3 rounded-lg flex items-start justify-start">
+    <div className=" py-3 px-3 size-[45%] mt-3 border border-zinc-600 gap-3 rounded-lg flex items-start justify-start">
       <div className="left w-40 h-40 rounded-lg overflow-hidden">
         <img
           className="object-cover w-full h-full"
