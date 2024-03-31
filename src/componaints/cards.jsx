@@ -4,19 +4,32 @@ import { Link } from "react-router-dom";
 
 function Cards({ card }) {
   return (
-    <div className=" py-3 px-3 size-[45%] mt-3 border border-zinc-600 gap-3 rounded-lg flex items-start justify-start">
-      <div className="left w-40 h-40 rounded-lg overflow-hidden">
-        <img
-          className="object-cover w-full h-full"
-          src={card.link.profile_photo}
-        />
+    <>
+      <div className=" size-[370px] rounded-xl min-h-20 mt-5 bg-red-400/10 p-2">
+        <div className="flex items-start gap-4 relative">
+        <img className="size-20 rounded-lg object-cover" src={card.link.profile_photo} />
+        <div>
+        <h1 className="text-2xl font-medium leading-none">{card.teaching_type} {card.development}</h1>
+        <section className="text-[0.76rem] overflow-hidden leading-none mt-2 flex flex-wrap gap-2 px-2 py-">
+        <Link><p className="">{card.course._1}</p></Link>
+        <p className="">{card.course._2}</p>
+        <p className="">{card.course._3}</p>
+        <p className="">{card.course._4}</p>
+        <p className="">{card.course._5}</p>
+        <p className="">{card.course._6}</p>
+        <p className="">{card.course._7}</p>
+        <p className="">{card.course._8}</p>
+        <p className="">{card.course._9}</p>
+        <p className="">{card.course._10}</p>
+        </section>
+        </div>
+        </div>
+        <div className="h-56 mt-3 rounded-lg leading-5 p-2 text-zinc-400 text-[0.9rem] overflow-hidden line-clamp-[11]">{card.about}</div>
+        <div className="bg-[#FAAB86] h-9 flex items-center gap-2 mt-1 px-2 rounded-lg">
+          <p className="size-6 rounded-md flex items-center justify-center bg-red-400">{card.link.icons.youtube}</p>
+        </div>
       </div>
-
-      <div className="right w-8/12 h-40 gap-2 flex">
-        <h1 className=" text-2xl h-fit font-bold text-zinc-700 w-1/2">{card.teaching_type}</h1>
-        <h1 className=" text-[0.9rem] text-end h-fit font-normal text-zinc-700 w-1/2 mt-1">{card.date}</h1>
-      </div>
-    </div>
+    </>
   );
 }
 

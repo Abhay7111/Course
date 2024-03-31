@@ -11,6 +11,8 @@ import Card_pop from "./componaints/card_pop";
 import { Link } from "react-router-dom";
 import Courses from "./all_page/Courses";
 import Features from "./componaints/features";
+import bizimg from '/biz-growth.svg'
+import Ochiimg from '/ochi.png'
 
 function Data() {
   const userdata = [
@@ -173,7 +175,6 @@ function Data() {
         state: "Uttat pradesh",
       },
       teaching_type: "12th",
-      development: "development",
       course: {
         _1: "Hindi",
         _2: "English",
@@ -492,8 +493,9 @@ function Data() {
   const projectsdata = [
     {
       project_name:"Google Drive",
-      image:"https://cdn.dribbble.com/userupload/13480902/file/original-3dc9ada946134e7b95eaf523271b5098.png?resize=1024x584",
+      image:Ochiimg,
       icon:"ri-arrow-right-fill",
+      link:"https://abhay7111.netlify.app",
       user_data:{
         name:{
           first:"Abhay",
@@ -510,8 +512,9 @@ function Data() {
     },
     {
       project_name:"Google Drive",
-      image:"https://mdbcdn.b-cdn.net/img/home/design-system.webp",
+      image: bizimg,
       icon:"ri-arrow-left-fill",
+      link:"https://biz-growth.netlify.app",
       user_data:{
         name:{
           first:"Abhay",
@@ -530,6 +533,7 @@ function Data() {
       project_name:"Google Drive",
       image:"https://mdbcdn.b-cdn.net/img/home/theme-light.webp",
       icon:"ri-arrow-right-fill",
+      link:"https://biz-growth.netlify.app",
       user_data:{
         name:{
           first:"Abhay",
@@ -548,6 +552,7 @@ function Data() {
       project_name:"Google Drive",
       image:"https://mdbcdn.b-cdn.net/img/home/essential.webp",
       icon:"ri-arrow-left-fill",
+      link:"https://biz-growth.netlify.app",
       user_data:{
         name:{
           first:"Abhay",
