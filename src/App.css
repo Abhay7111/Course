@@ -32,7 +32,7 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: rgb(31, 31, 31);
-}
+  }
 
 .bg-clr {
   background-color: #F870C2;
@@ -489,6 +489,7 @@ body {
   .max630_posi{
     position: relative;
     margin-top: 4vh;
+    margin-bottom: 4vh;
     padding: 0 12px;
     width: 100%;
     padding: 20px 0 ;
@@ -496,7 +497,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #178a3f0b;
+    background-color: #f870c20e;
     border-radius: 15px;
   }
   .max630_textcont{
@@ -633,4 +634,63 @@ body {
   }
 
 
+}
+
+
+._404_error
+{
+  background-color:#141019;
+  background: radial-gradient(at 50% -20%, #908392, #0d060e) fixed;
+}
+
+
+#handboy
+{
+   animation: swing ease-in-out 1.3s infinite alternate;
+    transform-origin: 98% 98%;
+    transform-box: fill-box;
+    
+}
+
+
+#girllight
+{
+   animation: swing ease-in-out 1.3s infinite alternate;
+    transform-origin: 0% 97%;
+    transform-box: fill-box;
+}
+
+#hairgirl
+{
+    animation: swinghair ease-in-out 1.3s infinite alternate;
+   transform-origin: 60% 0%;
+    transform-box: fill-box;
+  
+}
+
+#zero
+{
+  transform-origin:bottom;
+  transform-box:fill-box;
+  
+}
+
+/*************swing************/
+@keyframes swing {
+    0% { transform: rotate(10deg); }
+    100% { transform: rotate(-10deg); }
+}
+
+
+/*************swing hair************/
+@keyframes swinghair {
+    0% { transform: rotate(6deg); }
+    100% { transform: rotate(-6deg); }
+}
+
+.transition_abhay::after{
+  transition: all ease 0.4s;
+}
+.transition_before::before{
+  transition: all ease 0.4s;
 }

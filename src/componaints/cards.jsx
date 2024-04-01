@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Cards({ card }) {
   return (
     <>
-      <div className=" size-[370px] flex-col relative rounded-xl mt-5 bg-red-400/10 p-2">
+      <div className=" size-[370px] flex-col relative rounded-xl mt-5 bg-[#f870c20e] p-2">
         <div>
           <div className="flex items-start gap-4 relative">
             <img

@@ -22,6 +22,7 @@ import Preloader from "./all_page/testing/Preloader.jsx";
 import Instructor from "./instructor/instructor.jsx";
 import Abhay from "./instructor/abhay.jsx";
 import Abhaydata from "./instructor/abhaydata.jsx";
+import Notfounded from "./componaints/404.jsx";
 
 const router = createBrowserRouter([
   {
@@ -126,7 +127,7 @@ const router = createBrowserRouter([
   },
   {
     path:"*",
-    element:<Trying/>
+    element:<Notfounded/>
   },
 ]);
 

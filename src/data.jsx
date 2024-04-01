@@ -501,8 +501,8 @@ function Data() {
           first:"Abhay",
           last:"Vishwakarma",
         },
-        dis:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptate quisquam repellat aut magni placeat vel incidunt porro minima eveniet sequi libero ducimus reprehenderit dolorem tenetur impedit doloribus numquam neque laboriosam aliquid, sit eius. Veniam dolor qui adipisci ullam reiciendis?",
-        title:"Need something more powerful? Try MDB Pro",
+        dis:<p className="flex flex-wrap gap-x-3">OCHI: A coding education platform by <a className="underline flex relative gap-2 px-1.5 justify-center items-center before:w-0 transition_before before:absolute before:h-full before:hover:w-full before:bg-[#e47e65] before:z-0 before:rounded-md" href="https://www.sheryians.com"><img className="size-4 object-cover relative" src="https://ik.imagekit.io/sheryians/Sheryians_Logo_wFKd9VClG.png"/><p className="relative z-10">Sheriyan's Coding School</p></a> , offering interactive tutorials, hands-on projects, and community collaboration. It empowers learners with practical coding skills through a user-friendly interface and personalized learning paths.</p>,
+        title:"This is OCHI",
       },
       style:{
         class:"",
@@ -520,7 +520,7 @@ function Data() {
           first:"Abhay",
           last:"Vishwakarma",
         },
-        dis:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptate quisquam repellat aut magni placeat vel incidunt porro minima eveniet sequi libero ducimus reprehenderit dolorem tenetur impedit doloribus numquam neque laboriosam aliquid, sit eius. Veniam dolor qui adipisci ullam reiciendis?",
+        dis:<p className="flex flex-wrap gap-x-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum laudantium, id tempore iure voluptates inventore fugiat quaerat veritatis quia consequatur quisquam accusantium numquam, laboriosam aliquam ad assumenda voluptatum voluptas modi qui impedit odit deserunt neque enim? Vel vitae officia quidem adipisci praesentium provident sapiente tempore, voluptas distinctio quia porro. Sunt.</p>,
         title:"A design system that will make your projects stand out",
       },
       style:{
@@ -539,7 +539,7 @@ function Data() {
           first:"Abhay",
           last:"Vishwakarma",
         },
-        dis:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptate quisquam repellat aut magni placeat vel incidunt porro minima eveniet sequi libero ducimus reprehenderit dolorem tenetur impedit doloribus numquam neque laboriosam aliquid, sit eius. Veniam dolor qui adipisci ullam reiciendis?",
+        dis:<p className="flex flex-wrap gap-x-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta est aperiam accusamus voluptatibus placeat doloribus modi harum molestias sed? Tempora, voluptatibus maiores assumenda inventore alias eveniet repellat dolore voluptas praesentium dolor sequi hic accusantium quis corporis doloribus, tenetur error facilis consequuntur velit aliquid, vitae minima. Suscipit officia, sequi deleniti tempora excepturi reiciendis ratione tempore dolorem?</p>,
         title:"Easy theming",
       },
       style:{
@@ -558,7 +558,7 @@ function Data() {
           first:"Abhay",
           last:"Vishwakarma",
         },
-        dis:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptate quisquam repellat aut magni placeat vel incidunt porro minima eveniet sequi libero ducimus reprehenderit dolorem tenetur impedit doloribus numquam neque laboriosam aliquid, sit eius. Veniam dolor qui adipisci ullam reiciendis?",
+        dis:<p className="flex flex-wrap gap-x-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta est aperiam accusamus voluptatibus placeat doloribus modi harum molestias sed? Tempora, voluptatibus maiores assumenda inventore alias eveniet repellat dolore voluptas praesentium dolor sequi hic accusantium quis corporis doloribus, tenetur error facilis consequuntur velit aliquid, vitae minima. Suscipit officia, sequi deleniti tempora excepturi reiciendis ratione tempore dolorem?</p>,
         title:"Key components that will save your time",
       },
       style:{
