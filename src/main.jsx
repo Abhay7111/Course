@@ -124,6 +124,10 @@ const router = createBrowserRouter([
     path:"/Instructor/Abhay",
     element:<Abhaydata/>
   },
+  {
+    path:"*",
+    element:<Trying/>
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

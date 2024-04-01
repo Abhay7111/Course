@@ -506,7 +506,7 @@ function Data() {
       },
       style:{
         class:"",
-        posi:"flex-row-reverse",
+        posi:"sm:flex-row-reverse",
         btn_posi:"right-2",
       },
     },
@@ -525,7 +525,7 @@ function Data() {
       },
       style:{
         class:"",
-        posi:"flex-row",
+        posi:"sm:flex-row",
         btn_posi:"left-2",
       },
     },
@@ -544,7 +544,7 @@ function Data() {
       },
       style:{
         class:"",
-        posi:"flex-row-reverse",
+        posi:"sm:flex-row-reverse",
         btn_posi:"right-2",
       },
     },
@@ -563,7 +563,7 @@ function Data() {
       },
       style:{
         class:"",
-        posi:"flex-row",
+        posi:"sm:flex-row",
         btn_posi:"left-2",
       },
     },
@@ -590,9 +590,11 @@ function Data() {
               </span>
             </button></Link>
           </div>
+          <div className="w-full flex flex-wrap items-center justify-between">
           {card.map((item, index) => (
             <Cards card={item} />
           ))}
+          </div>
         </div>
         <div className="pt-16 flex flex-col items-center px-12">
           <div className=" max630_teachermaintext w-full text-center sm:text-4xl font-normal leading-tighter">
@@ -604,7 +606,7 @@ function Data() {
             ))}
           </div>
         </div>
-        <div className=" max630_flex_padding flex-wrap mt-20 w-full flex justify-around sm:px-10 sm:gap-10 pb-24">
+        <div className=" max630_flex_padding flex-wrap sm:mt-20 w-full sm:flex justify-around sm:px-10 sm:gap-10 sm:pb-24">
           {projectsdata.map((item, index)=>(
             <Projects projectsdata={item}/>
           ))}
