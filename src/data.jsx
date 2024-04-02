@@ -400,7 +400,7 @@ function Data() {
       courses: "web-devlopment",
       links: {
         profile:
-          "https://media-del2-1.cdn.whatsapp.net/v/t61.24694-24/414997641_2007442582972989_4343336468827169681_n.jpg?ccb=11-4&oh=01_AdR_V7tt0vZ2kNQm7mATErhbmlgW2qZK7cf-6PRazeShpA&oe=65EBF433&_nc_sid=e6ed6c&_nc_cat=102",
+          "https://avatars.githubusercontent.com/u/142080096?v=4",
         goto: "/Instructor/abhay",
       },
     },
