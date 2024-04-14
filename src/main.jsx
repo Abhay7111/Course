@@ -13,6 +13,7 @@ import Help from "./all_page/Help.jsx";
 import Video from "./video.jsx";
 import Commingsoon from "./componaints/commingsoon.jsx";
 import Aboutus from "./all_page/aboutus.jsx";
+import Contact from "./all_page/contacts/contact.jsx";
 import Page from "./all_page/Page.jsx";
 import Blog from "./all_page/Blog.jsx";
 import Blogdata from "./all_page/blogdata.jsx";
@@ -118,6 +119,10 @@ const router = createBrowserRouter([
     element: <Trying />,
   },
   {
+    path: "/contact",
+    element: <Contact />,
+  },
+  {
     path:"/Instructor",
     element:<Instructor/>
   },
@@ -134,6 +139,6 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
-    <Preloader/>
+    {/* <Preloader/> */}
   </React.StrictMode>
 );

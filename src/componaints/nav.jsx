@@ -18,8 +18,8 @@ function Nav() {
                     <li><Link to="/Page">Page</Link></li>
                </ul>
           </div>
-          <Link to="./Help">
-          <button className='max630_helpdv dark-clr py-1 px-3 text-[1.1vw] text-center bg-clr rounded-xl md:text-lg lg:text-[1.1vw]'>HELP</button></Link>
+          <Link to="../contact">
+          <button className='max630_helpdv font-medium tracking-tighter dark-clr py-1 px-3 text-[1.1vw] text-center bg-clr rounded-xl md:text-lg lg:text-[1rem]'>Contact</button></Link>
           </div>
           <div className=' sm:hidden menu_bar3line'>
                <i class="ri-close-fill open_icon"></i>
