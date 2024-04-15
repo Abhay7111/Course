@@ -5,7 +5,7 @@ import Photos from "./photos";
 function Home({ homepage }) {
   const btn = [
     {
-      name: "Contact us",
+      name: "Contact",
       style: {
         border: `20px`,
       },
