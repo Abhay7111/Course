@@ -21,4 +21,4 @@ Abhay7111's Course Repository is a fantastic resource for anyone looking to lear
 
 By sharing this repository, Abhay7111 has demonstrated a commitment to open-source learning and co mmunity development, providing a valuable resource for the developer community.
 
-Link: https://www.gaama.top
+Link: https://plick.netlify.com
